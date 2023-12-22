@@ -96,6 +96,7 @@
             </div>
             <div>
                 <asp:Button ID="btnCreateAccount" runat="server" Text="Create My Account" OnClick="btnCreateAccount_Click" />
+                <%--onclick="location.href='<%: Url.Action("Action", "Controller") %>'"--%>
             </div>
         </div>
     </form>
